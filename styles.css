@@ -28,19 +28,19 @@ div:hover{
     transition: width 1s;
 }
 #pic1{
-    background-image: url(./1.jpg);
+    background-image: url(./pics/1.jpg);
 }
 #pic2{
-    background-image: url(./2.jpg);
+    background-image: url(./pics/2.jpg);
 }
 #pic3{
-    background-image: url(./3.jpg);
+    background-image: url(./pics/3.jpg);
 }
 #pic4{
-    background-image: url(./4.jpg);
+    background-image: url(./pics/4.jpg);
 }
 #pic5{
-    background-image: url(./5.jpg);
+    background-image: url(./pics/5.jpg);
 }
 h1{
     display: none;
