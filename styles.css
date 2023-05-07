@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+div{
+    height: 30rem;
+    width: 15%;
+    border: 2px solid black;
+    transition: width 1s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    display: flex;
+    align-items: end;
+    justify-content: flex-start;
+}
+div:hover{
+    width: 45rem;
+    transition: width 1s;
+}
+#pic1{
+    background-image: url(./1.jpg);
+}
+#pic2{
+    background-image: url(./2.jpg);
+}
+#pic3{
+    background-image: url(./3.jpg);
+}
+#pic4{
+    background-image: url(./4.jpg);
+}
+#pic5{
+    background-image: url(./5.jpg);
+}
+h1{
+    display: none;
+    color: white;
+    opacity: 0.8;
+}
